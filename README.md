@@ -4,7 +4,7 @@ This is Custom Logger Handler for WSO2 API Manager to log following details when
 
 LOG format
 
-Request <IN|OUT>|CorrelationID|apiName|apiContext|restURLPattern|httpMethod|endpointAddress+"|apiRequstStartTime|apiBackendRequestStartTime|userId|enduserName|applicationId|applicationName|consumerKey|
+Request <IN|OUT>|CorrelationID|apiName|apiContext|restURLPattern|httpMethod|endpointAddress|apiRequstStartTime|apiBackendRequestStartTime|userId|enduserName|applicationId|applicationName|consumerKey|
 
 ## Build
 
