@@ -84,14 +84,14 @@ public class CustomLogHandler extends AbstractHandler {
         String direction = DIRECTION_IN;
         org.apache.axis2.context.MessageContext axisMC = ((Axis2MessageContext) messageContext).getAxis2MessageContext();
 
-        log.info("Request In|"+ logMessageMediate(messageContext, direction) );
+        log.info("Request flow|"+ logMessageMediate(messageContext, direction) );
         return true;
     }
 
     @Override
     public boolean handleResponse(MessageContext messageContext) {
         String direction = DIRECTION_OUT;
-        log.info("Request Out|"+logMessageMediate(messageContext, direction));
+        log.info("Request flow|"+logMessageMediate(messageContext, direction));
         return true;
     }
 }
