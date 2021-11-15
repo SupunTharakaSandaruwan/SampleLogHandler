@@ -1,4 +1,4 @@
-# Logger Handler
+# Log Handler
 
 This is Custom Logger Handler for WSO2 API Manager to log following details when an API request comes through the `Gateway` component and responded out by the `Gateway` component.
 
@@ -217,4 +217,4 @@ Response flow|cd5b8f88-a4c7-4a51-a85c-fcb7e9f436fb|PizzaShackAPI|/pizzashack/1.0
 
 ---
 
-You can find more about Creating Custom Handlers for WSO2 API Manager in [here](https://docs.wso2.com/display/AM260/Writing+Custom+Handlers)
+You can find more about Creating Custom Handlers for WSO2 API Manager in [here](https://apim.docs.wso2.com/en/3.2.0/develop/extending-api-manager/extending-gateway/writing-custom-handlers/#introducing-handlers)
