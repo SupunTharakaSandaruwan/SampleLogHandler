@@ -3,8 +3,10 @@ package com.sample.log.handler;
 import org.apache.axis2.AxisFault;
 import org.apache.synapse.MessageContext;
 import org.apache.synapse.rest.AbstractHandler;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.wso2.carbon.apimgt.gateway.APIMgtGatewayConstants;
 import org.wso2.carbon.apimgt.impl.APIConstants;
 import org.apache.synapse.core.axis2.Axis2MessageContext;
@@ -14,7 +16,8 @@ import java.util.Map;
 
 public class CustomLogHandler extends AbstractHandler {
 
-    private static final Logger log = LoggerFactory.getLogger(CustomLogHandler.class);
+//    private static final Logger log = LoggerFactory.getLogger(CustomLogHandler.class);
+    private static final Log log = LogFactory.getLog(CustomLogHandler.class);
     private static final String DIRECTION_IN = "In";
     private static final String DIRECTION_OUT = "Out";
 
